@@ -1,20 +1,18 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-
 # Setup
 title:               'Viet on Rails'
 tagline:             'Ruby và nhiều thứ thú vị khác'
-description:         ''
+description:         'Cộng đồng những lập trình viên sử dụng Ruby và muốn trao đổi về nhiều thứ thú vị khác.'
 url:                 http://vietonrails.com
-baseurl:             ''
+# baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
   name:              Luu Tuan Anh
   email:             rock.khuya@gmail.com
+
+# Outputting
+permalink: /:categories/:year/:month/:day/:title
 
 # Custom vars
 version:             1.0.0
